@@ -51,6 +51,7 @@ public class JavaQuiz {
         Map<String, String> quizMap = new HashMap<>();
         
         // Add questions and answers to the quizMap
+	// Key = Question+Option, Value = Ans
         quizMap.put("Which statement is true about Java?\na) Java is a sequence-dependent programming language\nb) Java is a code dependent programming language\nc) Java is a platform-dependent programming language\nd) Java is a platform-independent programming language",
                 "d");
         quizMap.put("What is the extension of java code files?\na) .js\nb) .txt\nc) .class\nd) .java",
